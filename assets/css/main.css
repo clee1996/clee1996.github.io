@@ -55,6 +55,8 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+
+
 mark {
 	background-color: transparent;
 	color: inherit;
@@ -1501,6 +1503,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			
 		}
 
 		.image.left {
@@ -1838,6 +1841,7 @@ input, select, textarea {
 
 		.box :last-child {
 			margin-bottom: 0;
+			
 		}
 
 		.box.style1 {
@@ -2086,10 +2090,10 @@ input, select, textarea {
 
 	#banner {
 		position: relative;
-		color: #fff;
+		color: white;
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
-		background: #35b88f url("images/banner.svg") bottom center no-repeat;
+		background: #110b31 url("images/banner.svg") bottom center no-repeat;
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
@@ -2643,3 +2647,8 @@ input, select, textarea {
 			}
 
 	}
+
+	.devicon-javascript-plain-colored::before {
+		height: 300px;
+	}
+	
