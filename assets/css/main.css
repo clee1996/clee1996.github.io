@@ -2652,3 +2652,7 @@ input, select, textarea {
 		height: 300px;
 	}
 	
+	.headshot {
+		object-fit: cover;
+		width: 200px;
+	}
